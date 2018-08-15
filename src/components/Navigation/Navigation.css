@@ -1,0 +1,32 @@
+.Navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: var(--color-dark-blue);
+}
+.header__container {
+    display: flex;
+    width: 80%;
+}
+.header__navitems {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header__navitem__logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.box__navitem {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3%;
+    padding: 5px 20px;
+}
+.header__navitem {
+    color: white;
+    font-size: 15px;
+}

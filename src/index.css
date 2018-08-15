@@ -1,5 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --color-dark-blue: #2699FB;
+  --color-blue: #7fc4fd;
+  --color-mid-blue: #bce0fd;
+  --color-white: #ffffff; 
 }
