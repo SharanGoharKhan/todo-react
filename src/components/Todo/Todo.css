@@ -1,0 +1,42 @@
+.Todo {
+    position: relative;
+}
+.Todo__sub {
+   height: 90vh;
+   background-image: url('../../assets/images//hero-image.jpg');
+   background-position: center;
+   position: relative;
+}
+.overlay__main {
+    background-color: var(--color-dark-blue);
+    height: inherit;
+    opacity: .31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__heading {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 15%;
+    top: 15%; 
+}
+.main__heading input {
+    margin-left: 20px;
+    min-width: 250px;
+    min-height: 10px;
+    border: 0px;
+    border-bottom: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.01)
+}
+.main__heading input[type="text"] {
+    font-size: 25px;
+    color: white;
+}
+.question_mark {
+    margin-left: 20px;
+}

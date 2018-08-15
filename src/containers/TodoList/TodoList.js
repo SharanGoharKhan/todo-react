@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
+import Todo from '../../components/Todo/Todo'
 class TodoList extends Component {
     render() {
         return (
             <div>
-                <h1>Main Content</h1>
+                <Todo/>
             </div>
         )
     }
