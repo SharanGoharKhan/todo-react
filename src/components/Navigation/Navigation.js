@@ -1,18 +1,27 @@
 import React from 'react'
 import classes from './Navigation.css'
+import { NavLink } from 'react-router-dom';
 
 const navigation = (props) => (
     <header className={classes.Navigation}>
         <div className={classes.header__container}>
             <nav className={classes.header__navitems}>
-                <a className={classes.header__navitem__logo}>
-                TODO LIST
-                </a>
-                <div className={classes.box__navitem}>
-                    <a className={classes.header__navitem}>
-                        SIGN UP
-                    </a>
-                </div>
+                <ul>
+                    <li className={classes.header__navitem__logo}>
+                    <NavLink 
+                    to="/" 
+                    >
+                    TODO LIST
+                    </NavLink>
+                    </li>
+                    <li className={classes.header__navitem__signup}>
+                    <NavLink
+                    to="/auth"
+                    >
+                    SIGN UP
+                    </NavLink>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>

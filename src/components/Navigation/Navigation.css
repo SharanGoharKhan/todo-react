@@ -14,12 +14,20 @@
     justify-content: space-between;
     width: 100%;
 }
-.header__navitem__logo {
+.header__navitems > ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__navitem__logo > a {
     font-size: 20px;
     font-weight: bold;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
+
 .box__navitem {
     cursor: pointer;
     border: 1px solid white;
@@ -29,4 +37,17 @@
 .header__navitem {
     color: white;
     font-size: 15px;
+}
+.header__navitem__signup {
+    border: 1px solid white;
+    padding: 6px 20px;
+    border-radius: 3%
+}
+.header__navitem__signup > a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }

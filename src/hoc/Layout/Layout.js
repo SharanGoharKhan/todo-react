@@ -9,7 +9,7 @@ class Layout extends Component {
         return (
         <Aux>
             <NavigationComponent />
-            <TodoList />
+            {this.props.children}
         </Aux>
         )
     }
